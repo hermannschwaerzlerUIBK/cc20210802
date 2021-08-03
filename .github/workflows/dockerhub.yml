@@ -30,7 +30,7 @@ jobs:
         with:
           file: Dockerfile
           push: true
-          tags: hermannschwaerzler/alpine:actions-3.14
+          tags: hermannschwaerzler/rockylinux:actions-8
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}   
